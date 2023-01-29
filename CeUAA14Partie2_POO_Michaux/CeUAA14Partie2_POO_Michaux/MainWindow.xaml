@@ -1,0 +1,27 @@
+﻿<Window x:Class="CeUAA14Partie2_POO_Michaux.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CeUAA14Partie2_POO_Michaux"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grdMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0">SERPENTS ET ECHELLES</TextBlock>
+        <StackPanel Orientation="Vertical" Width="150" Height="300" Background="#FFC38F3D" Grid.Row="1" Grid.Column="1">
+            <TextBlock x:Name="nameJoueur" Text="Joueur 1"></TextBlock>
+            <TextBlock x:Name="infoDe" Text="Dé"></TextBlock>
+            <Button x:Name="btnPlay" Width="150" Content="JOUER" Click="ClickJouer" ></Button>
+        </StackPanel>
+    </Grid>
+</Window>

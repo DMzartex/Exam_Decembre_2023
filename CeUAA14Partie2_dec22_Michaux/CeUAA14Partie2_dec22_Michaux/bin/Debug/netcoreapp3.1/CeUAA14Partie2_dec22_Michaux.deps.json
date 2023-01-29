@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CeUAA14Partie2_dec22_Michaux/1.0.0": {
+        "runtime": {
+          "CeUAA14Partie2_dec22_Michaux.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CeUAA14Partie2_dec22_Michaux/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
